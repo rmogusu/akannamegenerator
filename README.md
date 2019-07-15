@@ -8,13 +8,15 @@ This name generator takes a user's birthday and calculates the day of the week t
 * Read the given instructions
 * Enter your birthdate and gender
 * Get your Akan name
+
+* No scripts needed to be run 
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would imwpact use of your application. Share any workarounds that are in place. }
+There are no known of errors on this webpage yet
 ## Technologies Used
 In this project, I used HTML to create the page, CSS for styling the page and JavaScript for the back-end functionalities
 ## Support and contact details
-Incase of any errors, or if you want to collaborate, e-mail me at Wavyylikethesea@gmail.com
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. E-mail me at: Wavyylikethesea@gmail.com
 ### License
-*The project has a MIT license; meaning anyone can do anything they wish with the project*
+MIT
 Copyright (c) 2019 
 **Thomas Maghanga**
