@@ -8,5 +8,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
+h2 {
+    color: yellow;
+    font-style: italic;
+}
+h3 {
+    color: green;
+    font-style: italic;
+}
