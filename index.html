@@ -38,45 +38,26 @@
       </ul> 
     </div>
     <div class="col-md-6">
-        <form id="birthday"  name="firstForm" action="">
-            <h4>Date of birth:</h4>
-            <div class="form-group">       
-            <div class="tab"> Enter your date of birth (e.g. if you were born on 2nd Aug 1997, please enter 02):
-              <input type="number" class="form-control" id="date" name="date">
-            </div>
-            <div class="tab"> Enter your month of birth (e.g. if you were born on 2nd Aug 1997, please enter 08):
-              <input type="number" class="form-control" id="month"  name="month">
-            </div>
-            <div class="tab"> Enter your century of birth (e.g. if you were born on 2nd Aug 1997, please enter 19):
-              <input type="number" class="form-control" id="century"  name="century">
-            </div>
-            <div class="tab"> Enter your year of birth (e.g. if you were born on 2nd Aug 1997, please enter 97):
-              <input type="number" class="form-control" id="year"  name="year">
-            </div>
-            </div>
-            <h4>Gender:</h4>
-            <div class="form-group">
-               <label for="gender">Gender</label><br>
-            <div class="form-check-inline">
-               <label class="form-check-label">
-               <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male<br>
-               </label>
-               <label class="form-check-label">
-               <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female<br>
-               </label>
-            </div>
-            </div>
-            <div style="overflow:auto;">
-            <div style="float: left;">
-               <button type="button" id="submit" onclick="getName()">Submit</button>
-            </div>
-            </div>    
-            </div>
+        <form>
+           <h4>Enter your date of birth: </h4>
+           <p>Month: <input type="text" name="month" size="2"></p>
+           <p>Day:  <input type="text" name="day" size="2"></p>
+           <p>Year: <input type="text" name="year" size="4"></p>
+           <h4>Gender: </h4>
+           <div class="radio-buttons">
+               <input type="radio" name="gender" value="male" id="maleRadio" />Male
+               <input type="radio" name="gender" value="female" id="femaleRadio"/>Female
+           </div>
+            <p> <input type="button" value="Submit" onclick="compute(form)"></p>
+            <p> Date of Birth: <input type="text" name="result1" size="18"></p>
+            <p> Day of the Week: <input type="text" name="result2" size="18"></p>
+            <p> Your Akan Name: <textarea name="result3" rows="2" cols="50"></textarea></p>
         </form>
+    </div>
     </div>
     </div> 
     </div>
-  <footer>Copyright &copy Thomas Maghanga 2019</footer>
+    <footer>Copyright &copy Thomas Maghanga 2019</footer>
   </body>
   </div>
 </html>
