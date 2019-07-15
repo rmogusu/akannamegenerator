@@ -4,6 +4,9 @@ h1 {
     color: red;
 }
 body {
-    background-image: url(https://www.contemporary-african-art.com/images/adinkra-robes-Accra-Ghana.jpg)
+    background-image: url(https://www.contemporary-african-art.com/images/adinkra-robes-Accra-Ghana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
