@@ -8,19 +8,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+h1 {
+    background-color:yellow;
+}
 h2 {
-    color: yellowgreen;
+    color: green;
     font-style: italic;
 }
 h3 {
-    color: yellowgreen;
+    color: green;
     font-style: italic;
 }
 h4 {
-    color: yellowgreen;
+    color: green;
     font-style: italic;
 }
 footer {
     text-align: center;
     color: red;
+    background-color:yellow;
 }

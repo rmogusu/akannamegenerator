@@ -9,7 +9,7 @@ var days=["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"
 
 var months=["undefined","January","February","March","April","May","June","July","August","September","October","November","December"];
 
-function compute(form){
+function calculate(form){
    var val1=parseInt(form.day.value,10);
    if((val1<=0)||(val1>31)){
        alert("Invalid! Please enter the correct day")
@@ -54,7 +54,7 @@ function compute(form){
    } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Wednesday') {
        form.result3.value = 'Your Akan name is Akua, which means you were born on Wednesday';
    } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Thursday') {
-       form.result3.value = 'Your Akan name is Yaw, which means you were born on Tnamehursday';
+       form.result3.value = 'Your Akan name is Yaw, which means you were born on Thursday';
    } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Thursday') {
        form.result3.value = 'Your Akan name is Yaa, which means you were born on Thursday';
    } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Friday') {
@@ -71,7 +71,7 @@ function compute(form){
        form.result3.value = 'Your Akan name is Akosua, which means you were born on Sunday';
    }
 else {
-   alert('Error, Some fields are Empty!!');
+   alert('Error, There Are Empty Fields!!');
    document.getElementById('myForm').reset();
 }
 }
