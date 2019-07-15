@@ -57,5 +57,5 @@ var gender = document.getElementsByName("gender");
 
 function getName(){
     dayValue = calculateDayValue();
-    getGender();
+    getGender();                                                                                                                                                                                
   }
