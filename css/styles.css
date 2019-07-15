@@ -9,10 +9,14 @@ body {
     background-size: cover;
 }
 h2 {
-    color: yellow;
+    color: yellowgreen;
     font-style: italic;
 }
 h3 {
     color: green;
+    font-style: italic;
+}
+h4 {
+    color: yellowgreen;
     font-style: italic;
 }
